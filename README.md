@@ -1,6 +1,6 @@
 # StockPilot
 
-An internal inventory tool for a Shopify store ([The Candle Studio](../the-candle-studio-storefront)). It's the back-office app a shop owner opens to watch stock levels, restock after a delivery, set low-stock alerts, and see a running history of every change.
+An internal inventory tool for a Shopify store ([The Candle Studio](https://github.com/andreachico/the-candle-studio-storefront)). It's the back-office app a shop owner opens to watch stock levels, restock after a delivery, set low-stock alerts, and see a running history of every change.
 
 Shopify stays the source of truth for inventory. StockPilot reads and writes through the GraphQL Admin API, listens to webhooks, and layers its own inventory-focused workflow on top — the parts Shopify's admin doesn't give you out of the box, like per-product thresholds, an activity timeline, and a dashboard built around "what needs my attention today."
 
